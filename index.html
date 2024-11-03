@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="Guess.css">
+</head>
+<body>
+
+    <div class="outer">
+    <h1>Guess the Number Game designed by <span class="vishu">Vishal</span></h1>
+    <div class="container">
+        <div id="rangeSection">
+            <p>Enter your range:</p>
+            <input type="number" id="rangeInput" placeholder="Enter your range" min="1">
+            <button onclick="setRange()">Set Range</button>
+        </div>
+        <div id="gameSection">
+            <p>Enter a number between 1 and your chosen range:</p>
+            <input type="number" id="guessInput" placeholder="Enter your guess" min="1">
+            <br>
+            <button onclick="submitGuess()">Submit</button>
+            <button onclick="quitGame()">Quit</button>
+        </div>
+        <button id="restartButton" onclick="restartGame()">Restart Game</button>
+        <p id="output"></p>
+    </div>
+
+    <script src="Guess.js"></script>  
+</div>
+</body>
+</html>

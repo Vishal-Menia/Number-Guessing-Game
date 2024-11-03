@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+    padding-top: 200px;
+    background: url("photo2.jpg");
+    background-size: cover;
+    
+}
+h1 {
+    color: #00385d;
+    margin-bottom: 20px;
+}
+p{
+    color: rgb(0, 42, 79);
+    font-size: 20px;
+}
+.container {
+    display: inline-block;
+    width: 300px;
+}
+input[type="number"] {
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 5px;
+    display: inline-block;
+}
+button:hover {
+    background-color: #2980b9;
+    transform: translateY(-3px);
+}
+button:active {
+    transform: translateY(1px);
+}
+#output {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#gameSection ,#restartButton{
+    display: none;
+}
+h2{
+    top:20% ;
+}
+.vishu{
+    color:rgb(24 188 173);
+}
