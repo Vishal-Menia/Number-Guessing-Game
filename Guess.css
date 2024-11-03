@@ -7,7 +7,7 @@ body {
     color: #333;
     text-align: center;
     padding-top: 200px;
-    background: url("photo2.jpg");
+    background: url("photo2.jpeg");
     background-size: cover;
     
 }
@@ -62,5 +62,5 @@ h2{
     top:20% ;
 }
 .vishu{
-    color:rgb(24 188 173);
+    color:rgb(193 46 46);;
 }
